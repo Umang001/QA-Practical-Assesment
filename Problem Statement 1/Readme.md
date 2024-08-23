@@ -77,4 +77,10 @@ If they are not installed, you can follow the official installation guides:
 
 ## Automated Testing
 
-- Run the python file 
+To run the script, first set up a virtual environment:
+```bash
+❯ python -m venv venv
+❯ . venv/bin/activate
+❯ pip install -r requirements.txt
+❯ python test_integrate.py
+```
