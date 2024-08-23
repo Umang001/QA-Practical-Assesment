@@ -77,13 +77,4 @@ If they are not installed, you can follow the official installation guides:
 
 ## Automated Testing
 
-- Create a test_integrate,py file for testing:
-    ```bash
-    import requests
-
-    frontend = "<frontend-url>"
-    expected_message = "Hello from the Backend!"
-    response = requests.get(frontend)
-    assert response.status_code == 200
-    assert expected_message in response.text
-    ```
+- Run the python file 
